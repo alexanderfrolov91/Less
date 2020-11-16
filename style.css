@@ -1,0 +1,75 @@
+html,
+body {
+  color: red;
+}
+.border {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+main {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+main div {
+  color: green;
+}
+@media screen and (orientation: portrait) {
+  #one {
+    color: red;
+  }
+}
+@media screen and (orientation: landscape) {
+  #one {
+    color: blue;
+  }
+}
+main {
+  width: 0.5;
+  height: 1040px;
+}
+#a {
+  color: white;
+}
+#a .b {
+  background-color: black;
+}
+#c {
+  color: yellow;
+  background-color: black;
+}
+header {
+  color: green;
+}
+footer {
+  color: blue;
+}
+#main-inner {
+  text-align: center;
+}
+body {
+  background: url("../images/example.png");
+}
+main {
+  color: #000;
+  background-color: #fff;
+}
+@media (min-width: 320px) {
+  body {
+    font-size: 44px;
+  }
+}
+main {
+  width: 50%;
+}
+#colors {
+  one: red;
+  two: green;
+  three: blue;
+}
+p {
+  color: red;
+}
+a {
+  color: green;
+}
